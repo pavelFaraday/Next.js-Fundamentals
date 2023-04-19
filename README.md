@@ -21,7 +21,7 @@ It is a fullstack **framework** for Recat.js, that inhances React features. It s
 
 ### 1. Server-side Rendering (SSR) support
 
-![feture 1 - SSR](slides/next-feature1-ssr.png)
+![feture 1 - SSR](slides/next-key-features.png)
 
 Server-side rendering is all about preparing the content of a page on the server, instead of on the client. **SSR means that the content of your site is generated on the server, then sent to the browser.** This is useful for SEO purposes, because search engines can "see" the content of your site before they send it to users.
 
@@ -38,3 +38,9 @@ If that page would be pre-rendered on the server, if that Data Fetching somehow 
 Routing means that we are giving to user illusion of having multiple pages. This router basically watches the URL, and when it changes, it basically prevents the browser default of sending a request to some backend server. And instead renders different content (different component in the end) on the page with React.
 
 Next.js allows us to get rid of extra routing code and hence we have to right less code we have less work.
+
+### 3. Fullstack Capabilities
+
+Next.js also makes it easy for us as a developers to add backend code to our react project.
+
+---
