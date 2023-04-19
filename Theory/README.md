@@ -50,3 +50,9 @@ Next.js allows us to get rid of extra routing code and hence we have to right le
 Next.js also makes it easy for us as a developers to add backend code to our react project.
 
 ---
+
+### How add dynamic page with Next.js
+
+![add dynamic page](slides/next-dynamic-page.jpg)
+
+---
