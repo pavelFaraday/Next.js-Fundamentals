@@ -55,4 +55,7 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 
 ![add dynamic page](slides/next-dynamic-page.jpg)
 
+**What you will type in URL you will get the same value as router**👇
+![Dynamic page routing](slides/dynamic-page-routing.jpg)
+
 ---
