@@ -43,7 +43,7 @@ If that page would be pre-rendered on the server, if that Data Fetching somehow 
 
 Routing means that we are giving to user illusion of having multiple pages. This router basically watches the URL, and when it changes, it basically prevents the browser default of sending a request to some backend server. And instead renders different content (different component in the end) on the page with React.
 
-Next.js allows us to get rid of extra routing code and hence we have to right less code we have less work.
+Next.js allows us to get rid of extra routing code & hence we have to right less code we have less work.
 
 ### 3. Fullstack Capabilities
 
