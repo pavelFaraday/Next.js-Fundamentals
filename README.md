@@ -4,7 +4,7 @@
 
 It is a fullstack **framework** for React.js, that enhances React features. It solves common problems & makes building React apps easier.
 
-![nextJS](/Theory//Theory/slides/next1.png)
+![nextJS](/Theory/slides/next1.png)
 
 ---
 
