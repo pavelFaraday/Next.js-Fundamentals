@@ -73,3 +73,8 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 ![getstaticprops3](/Theory/slides/getStaticProps3.jpg)
 
 ---
+
+## How to add Meta information on each page with Next.js
+![meta info](Theory/slides/metainfo.jpg)
+
+---
