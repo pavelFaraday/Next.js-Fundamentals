@@ -59,3 +59,10 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 ![Dynamic page routing](slides/dynamic-page-routing.jpg)
 
 ---
+
+## Data Fetching for Static (Content Ready) Pages with getStaticProps() func
+
+![page pre-rendering](slides/page-prerendering.png)
+![getstaticprops function](slides/getstaticprops.png)
+
+---
