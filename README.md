@@ -4,7 +4,7 @@
 
 It is a fullstack **framework** for React.js, that enhances React features. It solves common problems & makes building React apps easier.
 
-![nextJS](slides/next1.png)
+![nextJS](/Theory//Theory/slides/next1.png)
 
 ---
 
@@ -27,7 +27,7 @@ It is a fullstack **framework** for React.js, that enhances React features. It s
 
 ### 1. Server-side Rendering (SSR) support
 
-![feature 1 - SSR](slides/next-key-features.png)
+![feature 1 - SSR](/Theory/slides/next-key-features.png)
 
 Server-side rendering is all about preparing the content of a page on the server, instead of on the client. **SSR means that the content of your site is generated on the server, then sent to the browser.** This is useful for SEO purposes, because search engines can "see" the content of your site before they send it to users.
 
@@ -53,23 +53,23 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 
 ### How add dynamic page with Next.js
 
-![add dynamic page](slides/next-dynamic-page.jpg)
+![add dynamic page](/Theory/slides/next-dynamic-page.jpg)
 
 **What you will type in URL you will get the same value as router**👇
-![Dynamic page routing](slides/dynamic-page-routing.jpg)
+![Dynamic page routing](/Theory/slides/dynamic-page-routing.jpg)
 
 ---
 
 ## Data Fetching for Static (Content Ready) Pages with getStaticProps() func
 
-![page pre-rendering](slides/page-prerendering.png)
+![page pre-rendering](/Theory/slides/page-prerendering.png)
 
 ### getStaticProps() & regeneration (revalidation) of page
 
-![getstaticprops2](slides/getStaticProps2.jpg)
+![getstaticprops2](/Theory/slides/getStaticProps2.jpg)
 
-![getstaticprops function](slides/getstaticprops.png)
+![getstaticprops function](/Theory/slides/getstaticprops.png)
 
-![getstaticprops3](slides/getStaticProps3.jpg)
+![getstaticprops3](/Theory/slides/getStaticProps3.jpg)
 
 ---
