@@ -1,3 +1,4 @@
+import Head from "next/head";
 import MeetupList from "../components/meetups/MeetupList";
 
 const DUMMY_MEETUPS = [
@@ -18,7 +19,18 @@ const DUMMY_MEETUPS = [
 ];
 
 const HomePage = () => {
-	return <MeetupList meetups={DUMMY_MEETUPS} />;
+	return (
+		<>
+			<Head>
+				<title>Meta tag info for page title</title>
+				<meta
+					name="description"
+					content="This is website for learning Next.js"
+				/>
+			</Head>
+			<MeetupList meetups={DUMMY_MEETUPS} />;
+		</>
+	);
 };
 
 export default HomePage;
