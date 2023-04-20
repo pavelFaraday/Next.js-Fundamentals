@@ -63,6 +63,13 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 ## Data Fetching for Static (Content Ready) Pages with getStaticProps() func
 
 ![page pre-rendering](slides/page-prerendering.png)
+
+### getStaticProps() & regeneration (revalidation) of page
+
+![getstaticprops2](slides/getStaticProps2.jpg)
+
 ![getstaticprops function](slides/getstaticprops.png)
+
+![getstaticprops3](slides/getStaticProps3.jpg)
 
 ---
