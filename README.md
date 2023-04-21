@@ -95,12 +95,18 @@ Pre-generating page dynamically on the fly after deployment on the server
 This function will not run during the build process, but instead always on the server after deployment !!!
 Every code you will write in getServerSideProps(), will run only on server, not on the client side !!!
 
-![](/Theory/slides/getserversideprops.jpg)
+![getServerSideProps](/Theory/slides/getserversideprops.jpg)
 
 ---
 
 ## How to add Meta information on each page with Next.js
 
 ![meta info](Theory/slides/metainfo.jpg)
+
+---
+
+## API Routes
+
+## ![API Routes](Theory/slides/api-routes.jpg)
 
 ---
