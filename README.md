@@ -74,6 +74,20 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 
 ---
 
+## getStaticPaths()
+
+![](/Theory/slides/getstaticpath.jpg)
+
+**Where can I use getStaticPaths?**
+
+-   getStaticPaths must be used with getStaticProps
+-   You cannot use getStaticPaths with getServerSideProps
+-   You can export getStaticPaths from a Dynamic Route that also uses getStaticProps
+-   You cannot export getStaticPaths from non-page file (e.g. your components folder)
+-   You must export getStaticPaths as a standalone function, and not a property of the page component
+
+---
+
 ## getServerSideProps() & How to regenerate page for every incoming request with Next.js - approach 2
 
 Pre-generating page dynamically on the fly after deployment on the server
