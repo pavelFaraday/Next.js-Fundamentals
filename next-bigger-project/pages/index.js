@@ -33,4 +33,28 @@ const HomePage = () => {
 	);
 };
 
+// This function will not run during the build process, but instead always on the server after deployment !!!
+// Every code you will write here, will run only on server, not on the client side !!!
+/* export async function getServerSideProps(context) {
+	const req = context.req;
+	const res = context.res;
+
+	// fetch data from an API
+	return {
+		props: {
+			meetups: DUMMY_MEETUPS,
+		},
+	};
+} */
+
+/* export async function getStaticProps() {
+	// fetch data from an API
+	return {
+	  props: {
+		meetups: DUMMY_MEETUPS
+	  },
+	  revalidate: 1
+	}; 
+} */
+
 export default HomePage;

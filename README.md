@@ -64,7 +64,7 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 
 ![page pre-rendering](/Theory/slides/page-prerendering.png)
 
-### getStaticProps() & regeneration (revalidation) of page
+### getStaticProps() & regeneration (revalidation) of page after deployment - approach 1
 
 ![getstaticprops2](/Theory/slides/getStaticProps2.jpg)
 
@@ -74,7 +74,19 @@ Next.js also makes it easy for us as a developers to add backend code to our rea
 
 ---
 
+## getServerSideProps() & How to regenerate page for every incoming request with Next.js - approach 2
+
+Pre-generating page dynamically on the fly after deployment on the server
+
+This function will not run during the build process, but instead always on the server after deployment !!!
+Every code you will write in getServerSideProps(), will run only on server, not on the client side !!!
+
+![](/Theory/slides/getserversideprops.jpg)
+
+---
+
 ## How to add Meta information on each page with Next.js
+
 ![meta info](Theory/slides/metainfo.jpg)
 
 ---
